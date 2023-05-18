@@ -9,3 +9,12 @@ disp(v);
 R=A.*v;
 disp(R);
 
+%linspace(x,y,z) means start value x, end value y and dividing with z equal elements
+%for cross product use the keyword cross
+%to display maximum value use keyword max
+x=linspace(3,1,3);
+y=1:pi;
+z=cross(x,y);
+disp(z);
+disp(max(z));
+
